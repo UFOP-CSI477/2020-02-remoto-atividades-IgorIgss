@@ -2,11 +2,11 @@
 
 ## Atualize os seus dados:
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Igor Gabriel Souza Silva
+- Matrícula: 17.2.8264
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 7º semestre no momento
+- Link para o seu GitHub: github.com/IgorIgss
 
 ## [Projeto final:](./Projeto/README.md) 
 
