@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Competição de carrinhos de rolimã</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+            h1{
+                text-align: center;
+                font-weight: bold;
+                color:black;
+                background-color: #c6c6c6;
+                padding: 30px;
+                
+            }
+
+            .flex{
+                display: flex;
+                margin: 20px;
+                font-weight: bold;
+            }
+
+            .button{
+                margin-left: 90px;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+
+            input{
+                border: 2px solid;
+                margin: 2px;
+                margin-left: 10px;
+            }
+
+            .bold{
+                font-weight: bold;
+            }
+
+        </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Competição de carrinhos de rolimã!</h1>
+    </header>
+    
+    <form name="frmDados">
+
+        <div class="flex">
+            <label for="nome">Nome do(a) Competidor(a):</label>
+            <input required type="text" name="nome" id="nome" value="" placeholder="Insira o nome">    
+        </div>
+        
+        <div class="flex">
+            <label for="tempo">Tempo do(a) Competidor(a):</label>
+            <input required type="number" name="tempo" id = "tempo" value="" placeholder="Tempo em segundos">
+        </div>
+
+        <div class="flex">
+            <label for="largada">Posição de largada:</label>
+            <input required type="number" name="largada" id = "largada" value="" placeholder="Largada (1 até 6)">
+        </div>
+
+        <div class="button">
+            <input id = "criar_linha_tabela" type="button" value="Inserir Competidor" class="btn btn-primary">
+        </div>
+
+    </form>
+
+    <div class="alerta"></div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-striped">
+    
+            <thead>
+        
+                <tr class="thead-dark">
+                    <th>Largada</th>
+                    <th>Competidor(a)</th>
+                    <th>Tempo (s)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+
+    
+<script src="corrida.js"></script>
+</body>
+</html>
