@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 label{
     font-weight: bold;
 }
@@ -15,3 +16,22 @@ form > div{
     border: 1px solid #d4d4d4;
 }
 
+=======
+label{
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    background-color:#c6c6c6;
+    border: 1px solid green;
+    border-radius: 15px;
+}
+
+form > div{
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+}
+
+>>>>>>> 716f9c8fb3a3c2b26a0eb0490d25080ea26660c9

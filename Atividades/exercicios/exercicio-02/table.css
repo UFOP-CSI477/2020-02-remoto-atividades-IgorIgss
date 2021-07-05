@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table{
     width: 100%;
 }
@@ -42,3 +43,49 @@ tbody tr:nth-child(odd){ /* an + b */
 .centralizado {
     text-align: center;
 }
+=======
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    font-size: 14pt;
+    font-family: tahoma;
+    font-style: italic;
+}
+
+caption{
+    font-size: 14pt;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+thead tr:hover {
+    background-color: blue;
+}
+
+tbody tr:hover{
+    background-color: #a9a9a9a9
+}
+
+tfoot tr:hover{
+    background-color: green;
+}
+
+tbody tr:nth-child(odd){ /* an + b */
+    background-color: yellow;
+}
+
+.centralizado {
+    text-align: center;
+}
+>>>>>>> 716f9c8fb3a3c2b26a0eb0490d25080ea26660c9
