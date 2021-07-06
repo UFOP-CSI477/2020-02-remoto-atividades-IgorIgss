@@ -57,4 +57,11 @@ function apagarRegistros() {
     document.frmDados.combustivel.value = "";
     document.frmDados.quilometragem.value = "";
 
+    totalCombustivel1 = 0;
+    totalKm = 0;
+    totalVeículos = 0;
+    mediaCombustivel = 0;
+    mediaKm = 0;
+    mediaKmPorLitro = 0;
+
 }
