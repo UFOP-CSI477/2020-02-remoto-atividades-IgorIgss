@@ -25,7 +25,7 @@
 
 ========== VSC - Front End ==========
 CMD:
-# cd C:\Users\igorg\Desktop\Vagas
+# cd C:\Users\igorg\Desktop\Vagas (caminho da pasta)
 # code .
 
 VS CODE:
